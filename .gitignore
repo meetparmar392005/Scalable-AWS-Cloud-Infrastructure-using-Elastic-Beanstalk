@@ -1,0 +1,39 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment variables (NEVER push secrets)
+.env
+.env.local
+.env.production
+
+# Zip files (don't push deployment zips)
+*.zip
+
+# AWS credentials (VERY IMPORTANT - never push these)
+.aws/
+credentials
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Elastic Beanstalk (local EB CLI files)
+.elasticbeanstalk/
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
